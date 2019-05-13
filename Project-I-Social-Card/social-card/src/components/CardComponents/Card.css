@@ -22,32 +22,21 @@ a {
     margin: 0 auto;
 }
 
-.header-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.heading {
-    display: flex;
-    align-items: baseline;
-}
-
-.heading p {
-    margin-left: 10px;
-    color: gray;
-}
-
-.img-container {
-    width: 10%;
-    float: left;
-}
-
-.img-container img {
-    margin-top: 15px;
-    margin-left: 35px;
-    width: 50%;
-}
-
 .react-img {
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-container {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-content {
+    margin-left: 10px;
 }

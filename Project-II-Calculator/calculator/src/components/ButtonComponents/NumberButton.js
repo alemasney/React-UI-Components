@@ -5,4 +5,4 @@ import './Button.css';
 //     return <button className = { props.buttonStyle } > { props.text }</button >
 // }
 
-// export default NumberButton;
+export default NumberButton;
