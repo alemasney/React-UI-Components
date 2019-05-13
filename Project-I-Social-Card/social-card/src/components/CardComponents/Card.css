@@ -1,1 +1,42 @@
 /* All styles for your Card Components live here */
+.section-container {
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.content-container {
+    float: left;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.react-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-container {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-content {
+    margin-left: 10px;
+}

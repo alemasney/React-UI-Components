@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    align-items: baseline;
+}
+
+.heading p {
+    margin-left: 10px;
+    color: gray;
+}
+
+.img-container {
+    width: 10%;
+    float: left;
+}
+
+.img-container img {
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 50%;
+}
+
